@@ -57,8 +57,5 @@
       "preview_bucket_name": "sink",
       "bucket_name": "sink" // Override with DEPLOY_R2_BUCKET_NAME
     }
-  ],
-  "triggers": {
-    "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
-  }
+  ]
 }
